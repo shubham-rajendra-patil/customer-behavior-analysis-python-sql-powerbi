@@ -53,12 +53,12 @@ A leading retail company wants to better understand its customers' shopping beha
 
 | Tool | Purpose |
 |------|---------|
-| 🐍 **Python (pandas)** | Data cleaning, feature engineering, MySQL export |
-| 📓 **Jupyter Notebook** | Python analysis environment |
-| 🗄️ **MySQL** | Structured querying and business analysis (10 queries) |
-| 📊 **Power BI** | Interactive dashboard and KPI reporting |
-| 🔗 **SQLAlchemy + pymysql** | Python–MySQL connection |
-| 🐙 **GitHub** | Version control and project sharing |
+|  **Python (pandas)** | Data cleaning, feature engineering, MySQL export |
+|  **Jupyter Notebook** | Python analysis environment |
+|  **MySQL** | Structured querying and business analysis (10 queries) |
+|  **Power BI** | Interactive dashboard and KPI reporting |
+|  **SQLAlchemy + pymysql** | Python–MySQL connection |
+|  **GitHub** | Version control and project sharing |
 
 ---
 
@@ -69,24 +69,24 @@ customer-behavior-analysis-python-sql-powerbi/
 │
 ├── README.md
 │
-├── assets/                        # 🖼️ Supporting images
+├── assets/                        #  Supporting images
 │   └── dashbaord.PNG
 │
-├── data/                          # 📂 Raw dataset
+├── data/                          #  Raw dataset
 │   └── customer_shopping_behavior.csv
 │
-├── notebooks/                     # 📓 Jupyter notebooks
+├── notebooks/                     #  Jupyter notebooks
 │   └── customer_shopping_analysis_eda_python.ipynb
 │
-├── dashboard/                     # 📊 Power BI dashboard files
+├── dashboard/                     #  Power BI dashboard files
 │   ├── customer_behavior_powerbi.pbix
 │   └── customer_behavior_powerbi_dashboard.pdf
 │
-├── reports/                       # 📄 Final documentation
+├── reports/                       #  Final documentation
 │   ├── Customer-Shopping-Behavior-Analysis-Presentation.pdf
 │   └── Customer_Shopping_Behavior_Analysis_Report.pdf
 │
-└── sql/                           # 🗄️ SQL analysis scripts
+└── sql/                           #  SQL analysis scripts
     └── customer_behavior_sql.sql
 ```
 
@@ -162,20 +162,20 @@ git clone https://github.com/shubham-rajendra-patil/customer-behavior-analysis-p
 pip install pandas sqlalchemy pymysql
 ```
 
-**3. 🐍 Run Python Data Preparation:**
+**3. Run Python Data Preparation:**
 - Open `notebooks/customer_shopping_analysis_eda_python.ipynb`
 - Run all cells to clean data, engineer features, and export to MySQL
 
-**4. 🗄️ Set up MySQL:**
+**4. Set up MySQL:**
 - Create a database named `customer_behavior`
 - The notebook will auto-create the `customer` table via `df.to_sql()`
 - Execute additional queries from `sql/customer_behavior_sql.sql`
 
-**5. 📊 Open Power BI Dashboard:**
+**5. Open Power BI Dashboard:**
 - Open `dashboard/customer_behavior_powerbi.pbix` in Power BI Desktop
 - Refresh data connection to MySQL if required
 
-**6. 📄 View Report:**
+**6. View Report:**
 - `reports/Customer_Shopping_Behavior_Analysis_Report.pdf`
 
 ---
