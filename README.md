@@ -33,11 +33,11 @@ This project delivers an end-to-end data analytics workflow on customer shopping
 A leading retail company wants to better understand its customers' shopping behavior in order to improve sales, customer satisfaction, and long-term loyalty. Management has noticed changes in purchasing patterns across demographics, product categories, and sales channels. They are particularly interested in uncovering which factors — discounts, reviews, seasons, or payment preferences — drive consumer decisions and repeat purchases.
 
 **📦 Project Deliverables:**
-1. 🐍 **Data Preparation & Modeling (Python)** — Clean and transform the raw dataset, engineer features, and load into MySQL
-2. 🗄️ **Data Analysis (SQL)** — Run 10 queries to extract insights on customer segments, loyalty, and purchase drivers
-3. 📊 **Visualization & Insights (Power BI)** — Build an interactive dashboard with dynamic slicers
-4. 📄 **Report & Presentation** — Summarize key findings and business recommendations
-5. 💻 **GitHub Repository** — Well-structured repository for reproducibility
+1.  **Data Preparation & Modeling (Python)** — Clean and transform the raw dataset, engineer features, and load into MySQL
+2.  **Data Analysis (SQL)** — Run 10 queries to extract insights on customer segments, loyalty, and purchase drivers
+3.  **Visualization & Insights (Power BI)** — Build an interactive dashboard with dynamic slicers
+4.  **Report & Presentation** — Summarize key findings and business recommendations
+5.  **GitHub Repository** — Well-structured repository for reproducibility
 
 ---
 
