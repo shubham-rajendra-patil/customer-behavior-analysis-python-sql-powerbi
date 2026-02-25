@@ -146,7 +146,7 @@ The interactive Power BI dashboard includes:
 - 👥 **Revenue & Sales by Age Group** — Young Adult leads both metrics
 - 🎛️ **Dynamic slicers** — Filter by Subscription Status, Gender, Category, Shipping Type
 
-![Customer Behavior Dashboard](assets/dashbaord.PNG)
+![Customer Behavior Dashboard](assets/dashboard.PNG)
 
 ---
 
